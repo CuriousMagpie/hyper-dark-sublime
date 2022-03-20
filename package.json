@@ -1,6 +1,6 @@
 {
   "name": "hyper-dark-sublime",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Lower contrast Hyper.app theme based on Brandon Smith's Atom One Dark (vivid)",
   "main": "index.js",
   "author": "Natalie Luhrs",

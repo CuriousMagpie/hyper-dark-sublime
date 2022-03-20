@@ -1,22 +1,22 @@
 
-const backgroundColor = '#596273'; //
-const foregroundColor = '#e3e6e8'; //
+const backgroundColor = '#3a3f45';
+const foregroundColor = '#e3e6e8';
 const cursorColor = foregroundColor;
-const borderColor = '#fa387f'; //
+const borderColor = backgroundColor;
 
 const colors = {
   black       : backgroundColor,
-  red         : '#e2696f', // red //
-  green       : '#9cc397', // green //
-  yellow      : '#d5b362', // yellow //
-  blue        : '#7da8d4', // blue //
-  magenta     : '#fb6a9f', // pink //
+  red         : '#e2696f', // red
+  green       : '#9cc397', // green
+  yellow      : '#d5b362', // yellow
+  blue        : '#7da8d4', // blue
+  magenta     : '#fb6a9f', // pink
   cyan        : '#52adf2', // cyan
-  white       : '#acb0b9', // light gray //
-  lightBlack  : '#7c8392', // medium gray //
-  lightRed    : '#eb9498', // red //
-  lightGreen  : '#b2d0ae', // green //
-  lightYellow : '#dfc486', // yellow //
+  white       : '#acb0b9', // light gray
+  lightBlack  : '#7c8392', // medium gray
+  lightRed    : '#eb9498', // red
+  lightGreen  : '#b2d0ae', // green
+  lightYellow : '#dfc486', // yellow
   lightBlue   : '#9fbfdf', // blue
   lightMagenta: '#fc9cbf', // pink
   lightCyan   : '#71bbf4', // cyan
@@ -46,18 +46,25 @@ exports.decorateConfig = config => {
         left: 0;
       }
       .tabs_list {
-        background-color: #21252b !important;
+        background-color: #3a3f45 !important;
         border-bottom-color: #181a1f !important;
       }
       .splitpane_divider {
         background-color: rgba(171, 178, 191, 0.15) !important;
       }
+      .tabs_nav {
+        color: #ec79a3;
+      }
       .tab_tab {
-        font-weight: 500;
+        font-weight: 400;
         color: rgba(157, 165, 180, 0.6);
         border-width: 0 0 0 1px;
         border-image: linear-gradient(#21252b, #181a1f 1em) 0 0 0 1 stretch;
         border-style: solid;
+        font-weight: normal;
+        color: #ec79a3;
+        font-family:'Victor Mono';
+        font-size: 12px;
       }
       .tab_tab:first-of-type {
         border-width: 0;
@@ -75,7 +82,7 @@ exports.decorateConfig = config => {
         left: 0;
         width: 2px;
         height: inherit;
-        background: #528bff;
+        background: #ec79a3;
         opacity: 0;
         transition: opacity .16s;
         z-index: 1;
@@ -83,7 +90,9 @@ exports.decorateConfig = config => {
       .tabs_title,
       .tab_tab.tab_active {
         font-weight: 500;
-        color: #d7dae0;
+        color: #ec79a3;
+        font-family:'Victor Mono';
+        font-size: 12px;
       }
       .tab_tab.tab_active {
         background-color: ${backgroundColor};
