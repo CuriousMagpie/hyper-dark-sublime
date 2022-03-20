@@ -8,10 +8,10 @@ Forked from [Brandon Smith's](https://github.com/brandon93s/") [One Dark (Vivid)
 
 1. Open Hyper's preferences with `Ctrl+,` or edit manually from `~/.hyper.js`
 
-2. Add `hyper-one-dark-vivid` to list of plugins:
+2. Add `hyper-dark-sublime` to list of plugins:
 ```js
 plugins: [
-  'hyper-one-dark-vivid'
+  'hyper-dark-sublime'
 ],
 ```
 3. Reload Hyper with `Ctrl+Shift+F5`

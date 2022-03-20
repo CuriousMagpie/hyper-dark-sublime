@@ -4,7 +4,7 @@
   "description": "Lower contrast Hyper.app theme based on Brandon Smith's Atom One Dark (vivid)",
   "main": "index.js",
   "author": "Natalie Luhrs",
-  "repository": "https://github.com/CuriousMagpie/hyper-one-dark-vivid",
+  "repository": "https://github.com/CuriousMagpie/hyper-dark-sublime",
   "license": "MIT",
   "keywords": [
     "Hyper",
