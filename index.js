@@ -1,25 +1,25 @@
 
-const backgroundColor = '#282c34';
-const foregroundColor = '#abb2bf';
+const backgroundColor = '#596273'; //
+const foregroundColor = '#e3e6e8'; //
 const cursorColor = foregroundColor;
-const borderColor = backgroundColor;
+const borderColor = '#fa387f'; //
 
 const colors = {
   black       : backgroundColor,
-  red         : '#ef596f', // red
-  green       : '#89ca78', // green
-  yellow      : '#d8985f', // yellow
-  blue        : '#52adf2', // blue
-  magenta     : '#d55fde', // pink
+  red         : '#e2696f', // red //
+  green       : '#9cc397', // green //
+  yellow      : '#d5b362', // yellow //
+  blue        : '#7da8d4', // blue //
+  magenta     : '#fb6a9f', // pink //
   cyan        : '#52adf2', // cyan
-  white       : '#d0d0d0', // light gray
-  lightBlack  : '#808080', // medium gray
-  lightRed    : '#ef596f', // red
-  lightGreen  : '#89ca78', // green
-  lightYellow : '#d8985f', // yellow
-  lightBlue   : '#52adf2', // blue
-  lightMagenta: '#d55fde', // pink
-  lightCyan   : '#52adf2', // cyan
+  white       : '#acb0b9', // light gray //
+  lightBlack  : '#7c8392', // medium gray //
+  lightRed    : '#eb9498', // red //
+  lightGreen  : '#b2d0ae', // green //
+  lightYellow : '#dfc486', // yellow //
+  lightBlue   : '#9fbfdf', // blue
+  lightMagenta: '#fc9cbf', // pink
+  lightCyan   : '#71bbf4', // cyan
   colorCubes  : '#ffffff', // white
   grayscale   : foregroundColor
 };

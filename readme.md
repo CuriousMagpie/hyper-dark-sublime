@@ -1,9 +1,8 @@
-# One Dark (Vivid) Theme for Hyper
+# Dark Sublime Theme for Hyper
 
-[Hyper](https://hyper.is) theme inspired by the [Atom One Dark](https://github.com/atom/one-dark-syntax) theme but with more **vivid** colors.
+[Hyper](https://hyper.is) theme inspired by the [Atom One Dark](https://github.com/atom/one-dark-syntax) theme but with lower contrast and intended to match the [Atom Dark Sublime Syntax theme](https://github.com/CuriousMagpie/dark-sublime-syntax).
 
-![Empty Shell](https://i.imgur.com/Gm0zpps.png)
-![Git Diff](https://i.imgur.com/8qZYKpN.png)
+Forked from [Brandon Smith's](https://github.com/brandon93s/") [One Dark (Vivid) Hyper theme](https://github.com/brandon93s/hyper-one-dark-vivid").
 
 ## Install
 
@@ -20,4 +19,4 @@ plugins: [
 
 ## License
 
-MIT © [Brandon Smith](https://github.com/brandon93s)
+MIT © [Natalie Luhrs](https://github.com/CuriousMagpie)
