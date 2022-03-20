@@ -11,7 +11,7 @@ Forked from [Brandon Smith's](https://github.com/brandon93s/") [One Dark (Vivid)
 2. Add `hyper-dark-sublime` to this directory on your computer:
 
 ```
-`~/.hyper_plugins/local/`
+~/.hyper_plugins/local/
 ```
 
 ```js
